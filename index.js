@@ -88,6 +88,7 @@ app.get("/api/users", async (req, res) => {
     });
   }
 });
+
 //To post new user details
 app.post("/api/users", async (req, res) => {
   try {
